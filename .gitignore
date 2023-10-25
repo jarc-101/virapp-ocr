@@ -6,3 +6,4 @@ __pycache__
 docai_parse.py
 docai.py
 online_processing.py
+.devcontainer

@@ -1,0 +1,8 @@
+venv
+results
+results1
+source
+__pycache__
+docai_parse.py
+docai.py
+online_processing.py

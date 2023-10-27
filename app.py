@@ -1,16 +1,10 @@
 # import libraries
 import streamlit as st
-import tkinter as tk
-from tkinter import filedialog
+from tkinter import filedialog as fidia
 from streamlit_extras.colored_header import colored_header 
 
 
-# Set up tkinter
-root = tk.Tk()
-root.withdraw()
 
-# Make folder picker dialog appear on top of other windows
-root.wm_attributes('-topmost', 1)
 
 def example():
   colored_header(
@@ -29,5 +23,6 @@ example()
 st.write('Please select a folder:')
 clicked = st.button('Folder Picker')
 if clicked:
-    dirname = st.text_input('Selected folder:', filedialog.askdirectory(master=root))
+    dirname = st.text_input('Selected folder:', fidia.askdirectory())
+
 

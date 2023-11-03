@@ -1,3 +1,5 @@
 streamlit == 1.27.2
-tk
 streamlit-extras == 0.3.4
+openai
+re
+pyminizip

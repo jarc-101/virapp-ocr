@@ -10,7 +10,7 @@ import documentai as docai
 def header():
   colored_header(
     label="Product Demo - OCR Application",
-    description="This Application processes documents in your choosen directory. It will return a dataframe after it processed all of the documents",
+    description="This Application processes documents in your choosen directory. It will return a zip file after it processed all of the documents",
     color_name="light-blue-70",
     )
 
@@ -28,6 +28,7 @@ def main():
             st.write(f'Selected Directory: {Folder_name}')
         else:
             st.error('Please enter a valid directory path.')
+            st.toast('Please enter a valid directory path.', icon='🚨')
 
     form = st.radio('Document:', ('medcert_land', 'mer_annexd','medcert_sea','mer_annexc','hiv','psych'))
   

@@ -2,14 +2,8 @@ venv
 results
 source
 __pycache__
-docai_parse.py
-week-2.py
-week-3.ipynb
 filekey.key
-data.csv
 .gitignore
-MER
-annex-d
 *.csv
 *.zip
 getdict.py
